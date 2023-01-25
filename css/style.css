@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+header {
+    background-color: rgb(245, 112, 24);
+    box-shadow: 5px 5px 5px rgb(160, 74, 17);
+
+}
+
+footer {
+    background-color: rgb(245, 112, 24);
+}
+
+.header_img{
+    width: 3rem;
+    height: 2rem;
+}
+ul li a{
+    cursor: pointer;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;  
+}
+.grid_conteiner{
+    display: grid;
+    grid-template-columns: 50% auto ;
+    width: 100%;
+    
+}
+.seccion{
+    margin: 40px;
+    width: auto;
+}
+#imagen_ysy{
+    width: 100%;
+    padding-right: 40px;
+}
+.imagenes{
+    text-align: center;
+    
+}
+table{
+
+    table-layout: fixed;
+    margin: 32px 0 30px 0;
+}
+.discografia_conteiner{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    justify-content: center;
+}
+.album{
+    border: 1px solid rgb(245, 112, 24);    
+    width: auto
+}
